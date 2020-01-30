@@ -1,0 +1,6 @@
+[submodule "mitsuba"]
+	path = mitsuba
+	url = git@github.com:joeylitalien/drmlt-mitsuba.git
+[submodule "dpt"]
+	path = dpt
+	url = git@github.com:joeylitalien/drmlt-dpt.git
