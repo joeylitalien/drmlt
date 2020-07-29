@@ -9,13 +9,7 @@ Designing robust mutation strategies for primary sample space Metropolis light t
 
 ## About
 
-Our implementation is based on custom versions of [Mitsuba v0.5](https://github.com/mitsuba-renderer/mitsuba) (for PSSMLT & MMLT) and [DPT](https://github.com/BachiLi/dpt) (for H2MC).
-
-## Interactive viewer
-
-## Scenes
-
-To download all scenes used in the paper and in the supplementary material, click here (0.0 MB).
+Our implementation is based on custom versions of [Mitsuba v0.5](https://github.com/gradientpm/gradient-mts) (for PSSMLT & MMLT) and [DPT](https://github.com/BachiLi/dpt) (for H2MC).
 
 ## Cite
 
