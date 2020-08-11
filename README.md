@@ -1,7 +1,8 @@
-# DRMLT
+# Delayed Rejection Metropolis Light Transport
 
-[Delayed Rejection Metropolis Light Transport]()<br/>
 Damien Rioux-Lavoie&ast;, Joey Litalien&ast;, Adrien Gruson, Toshiya Hachisuka, and Derek Nowrouzezahrai
+
+![](./static/teaser.png)
 
 ## Abstract
 
@@ -9,20 +10,22 @@ Designing robust mutation strategies for primary sample space Metropolis light t
 
 ## About
 
-Our implementation is based on custom versions of [Mitsuba v0.5](https://github.com/gradientpm/gradient-mts) (for PSSMLT & MMLT) and [DPT](https://github.com/BachiLi/dpt) (for H2MC).
+Our implementation is based on custom versions of [Mitsuba v0.5](https://github.com/gradientpm/gradient-mts) (for PSSMLT & MMLT) and [DPT](https://github.com/BachiLi/dpt) (for H2MC). The different implementations are available as submodules (`mitsuba` and `dpt`).
+
+The project page containing the paper links and additional results is available at: https://joeylitalien.github.io/publications/drmlt
 
 ## Cite
 
 ```
-@article{riouxlavoie20drmlt,
+@article{Rioux-Lavoie:2020:DRMLT,
     author = {Rioux-Lavoie, Damien and Litalien, Joey and Gruson, Adrien and Hachisuka, Toshiya and Nowrouzezahrai, Derek},
-    title = {Delayed {R}ejection {M}etropolis {L}ight {T}ransport},
+    title = {Delayed Rejection {Metropolis} Light Transport},
     journal = {ACM Transactions on Graphics},
-    volume = {},
-    number = {},
+    volume = {39},
+    number = {3},
     year = {2020},
-    month = jul,
-    doi = {},
+    month = apr,
+    doi = {10.1145/3388538},
 }
 ```
 
